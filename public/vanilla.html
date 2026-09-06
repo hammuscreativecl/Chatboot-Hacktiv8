@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gemini Chatbot - Vanilla JS (Hacktiv8 Spec)</title>
+  <link rel="stylesheet" href="/public/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+      <div class="badge">Hacktiv8 Module</div>
+      <h2>Gemini 2.5 Flash Chatbot</h2>
+      <p>Frontend Vanilla JavaScript terhubung ke REST API <code>POST /api/chat</code></p>
+      <div class="back-link">
+        <a href="/">← Kembali ke Aplikasi CS Souvenir</a>
+      </div>
+    </div>
+
+    <div id="chat-box">
+      <div class="message bot">
+        Halo! Saya chatbot yang terhubung ke model Gemini 2.5 Flash via REST API Express. Silakan ketik pesan atau pertanyaan apa saja di bawah ini!
+      </div>
+    </div>
+
+    <form id="chat-form">
+      <input type="text" id="user-input" placeholder="Ketik pertanyaan untuk Gemini..." autocomplete="off" />
+      <button type="submit" id="send-button">Send</button>
+    </form>
+  </div>
+
+  <script src="/public/script.js"></script>
+</body>
+</html>

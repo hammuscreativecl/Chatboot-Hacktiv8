@@ -1,0 +1,6 @@
+{
+  "name": "Souvenir CS Chatbot",
+  "description": "Aplikasi Customer Service AI Chatbot interaktif untuk konsultasi, katalog produk, dan pemesanan souvenir pernikahan, kantor, dan event.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
